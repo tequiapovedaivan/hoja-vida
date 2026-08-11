@@ -20,7 +20,7 @@ function Header() {
         <Link to="/contacto">Contacto</Link>
 
         <a
-          href="https://github.com/"
+          href="https://github.com/tequiapovedaivan/hoja-vida"
           target="_blank"
           rel="noreferrer"
         >
