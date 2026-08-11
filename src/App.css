@@ -1,0 +1,489 @@
+/* =========================
+   HEADER
+========================= */
+
+.header {
+  width: 100%;
+  min-height: 80px;
+  background: linear-gradient(90deg, #075985, #0891b2);
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 8%;
+}
+
+.header .logo a {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header nav {
+  display: flex;
+  gap: 25px;
+}
+
+.header nav a {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header nav a:hover {
+  color: #a5f3fc;
+}
+
+
+/* =========================
+   CONTENIDO
+========================= */
+
+main {
+  min-height: calc(100vh - 160px);
+}
+
+.seccion {
+  width: 85%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.seccion h1 {
+  color: #075985;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+
+/* =========================
+   INICIO
+========================= */
+
+/* =========================
+   INICIO
+========================= */
+
+.inicio {
+  width: 100%;
+  min-height: 720px;
+  background: #f5f7fa;
+  padding: 70px 6%;
+}
+
+.inicio-contenido {
+  max-width: 1350px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 70px;
+
+  align-items: center;
+}
+
+.inicio-izquierda {
+  align-self: start;
+}
+
+.inicio h1 {
+  color: #243f68;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.subtitulo {
+  color: #666;
+  font-size: 21px;
+  margin-bottom: 70px;
+}
+
+
+/* BOTONES */
+
+.botones-inicio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 55px 70px;
+  max-width: 850px;
+}
+
+.boton-inicio {
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #0bb5ae;
+  color: white;
+
+  border-radius: 10px;
+
+  font-size: 25px;
+  font-weight: bold;
+
+  text-align: center;
+
+  transition: 0.3s;
+}
+
+.boton-inicio:hover {
+  background: #079b95;
+  transform: scale(1.02);
+}
+
+
+/* PARTE DERECHA */
+
+.inicio-derecha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* FOTO */
+
+.foto-inicio {
+  width: 340px;
+  height: 365px;
+
+  background: #dbe5f1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+
+  margin-bottom: 55px;
+}
+
+.foto-inicio img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+
+/* BOTÓN CONTACTO */
+
+.boton-contacto {
+  width: 340px;
+  height: 90px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #0bb5ae;
+  color: white;
+
+  border-radius: 10px;
+
+  font-size: 25px;
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.boton-contacto:hover {
+  background: #079b95;
+  transform: scale(1.02);
+}
+/* =========================
+   PERFIL
+========================= */
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.foto-perfil {
+  margin-bottom: 25px;
+}
+
+.foto-placeholder {
+  width: 220px;
+  height: 220px;
+
+  border-radius: 50%;
+
+  background: #e0f2fe;
+  border: 5px solid #0891b2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #075985;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.perfil-texto {
+  max-width: 750px;
+}
+
+.perfil-texto h2 {
+  color: #075985;
+  margin-bottom: 15px;
+}
+
+.perfil-texto p {
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+
+/* =========================
+   TARJETAS
+========================= */
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.tarjeta {
+  border: 2px solid #bae6fd;
+  border-radius: 8px;
+  padding: 25px;
+  background: #f8fdff;
+}
+
+.tarjeta h2 {
+  color: #075985;
+  margin-bottom: 15px;
+}
+
+.tarjeta p {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+
+/* =========================
+   LOGOS
+========================= */
+
+.logo-institucion,
+.logo-empresa {
+  width: 80px;
+  height: 80px;
+
+  background: #e0f2fe;
+  border: 2px solid #0891b2;
+  border-radius: 6px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #075985;
+  font-weight: bold;
+
+  margin-bottom: 15px;
+
+  overflow: hidden;
+}
+
+
+.logo-institucion img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+/* =========================
+   HABILIDADES
+========================= */
+
+.habilidades-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.habilidades-grid .tarjeta {
+  min-height: 220px;
+}
+
+.habilidades-grid ul {
+  padding-left: 20px;
+}
+
+.habilidades-grid li {
+  margin-bottom: 12px;
+}
+
+
+/* =========================
+   CONTACTO
+========================= */
+
+.contacto {
+  max-width: 800px;
+}
+
+.contacto > p {
+  margin-bottom: 25px;
+}
+
+.contacto form {
+  border: 2px solid #bae6fd;
+  border-radius: 8px;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  background: #f8fdff;
+}
+
+.contacto label {
+  color: #075985;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contacto input,
+.contacto textarea {
+  width: 100%;
+  padding: 12px;
+
+  border: 1px solid #94a3b8;
+  border-radius: 5px;
+
+  font-size: 15px;
+}
+
+.contacto textarea {
+  resize: vertical;
+}
+
+.opciones {
+  display: flex;
+  gap: 30px;
+}
+
+.opciones label {
+  font-weight: normal;
+  color: #222;
+}
+
+.opciones input {
+  width: auto;
+  margin-right: 5px;
+}
+
+.contacto button {
+  margin-top: 20px;
+
+  padding: 13px;
+
+  background: #06b6d4;
+  color: white;
+
+  border: none;
+  border-radius: 6px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.contacto button:hover {
+  background: #0891b2;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+  background: linear-gradient(90deg, #075985, #0891b2);
+  color: white;
+
+  text-align: center;
+
+  padding: 25px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 800px) {
+
+  .header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .header nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tarjetas {
+    grid-template-columns: 1fr;
+  }
+
+  .habilidades-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .inicio h1 {
+    font-size: 32px;
+  }
+
+  .seccion h1 {
+    font-size: 30px;
+  }
+}
+
+
+.foto-perfil-circulo {
+  width: 250px;
+  height: 250px;
+
+  border-radius: 50%;
+  border: 5px solid #0891b2;
+
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #e0f2fe;
+}
+
+.foto-perfil-circulo img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  display: block;
+}
